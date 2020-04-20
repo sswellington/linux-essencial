@@ -50,6 +50,8 @@ sudo ./install.sh
 
 ## Ambiente de programação
 
+### [ASDF: Gerenciador de pacote para linguagem de programação](https://github.com/sswellington/linux-essencial/tree/master/equivalente/asdf.sh)
+
 ### [Visual Studio Code](https://code.visualstudio.com/): Plugins (Ctrl+P)
     * ext install spywhere.guides
     * ext install eamodio.gitlens

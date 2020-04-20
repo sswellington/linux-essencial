@@ -60,6 +60,10 @@ sudo dnf -y install inkscape
 echo "Instalando Transmission"
 sudo dnf -y install transmission
 
+echo "Instalando Build Essential"
+sudo yum -y install make automake gcc gcc-c++ java vim curl kernel-devel 
+sudo yum -y groupinstall "Development Tools" "Development Libraries"
+
 echo "Realizando os últimos ajustes"
 sudo dnf -y update
 sudo dnf -y upgrade
