@@ -64,6 +64,8 @@ echo "Instalando Build Essential"
 sudo yum -y install make automake gcc gcc-c++ java vim curl kernel-devel 
 sudo yum -y groupinstall "Development Tools" "Development Libraries"
 
+sudo dnf -y install neofetch
+
 echo "Realizando os últimos ajustes"
 sudo dnf -y update
 sudo dnf -y upgrade
