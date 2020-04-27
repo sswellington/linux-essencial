@@ -9,3 +9,5 @@ sudo pip install jupyterlab
 pip install kivy
 # [Python Imaging Library](https://pillow.readthedocs.io/en/stable/)
 pip install Pillow
+# [Construção de página WEB](https://flask.palletsprojects.com/)
+pip install Flask
