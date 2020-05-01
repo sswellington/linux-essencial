@@ -40,9 +40,11 @@ sudo apt -y install inkscape
 echo "Instalando Transmission"
 sudo apt -y install transmission
 
-sudo apt -y install pip
-
 sudo apt -y install neofetch
+
+echo "Instalando PIP"
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
 
 echo "Instalando Google-Chrome"
 sudo apt -y install 'https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.deb'
