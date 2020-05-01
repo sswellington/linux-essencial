@@ -3,6 +3,8 @@
 # sudo chmod 777 pip.sh
 # sudo ./pip.sh
 
+# [virtualenv](https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais)
+pip install virtualenv
 # [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
 sudo pip install jupyterlab
 # [interface](https://kivy.org/doc/stable/guide/basic.html#quickstart)
