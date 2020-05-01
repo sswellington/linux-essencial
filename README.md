@@ -2,6 +2,15 @@
 
 ## Distro
 
+### [Debian](https://www.debian.org/distrib/index.pt.html)
+
+#### Como instalar o script
+~~~bash
+wget https://github.com/sswellington/linux-essencial/distro/debian.sh
+sudo chmod 777 debian.sh
+sudo ./debian.sh
+~~~
+
 ### [Ubuntu](https://ubuntu.com/download)
 
 #### Como instalar o script
@@ -30,6 +39,7 @@ sudo ./fedora.sh
 * Escritório
     * Okular
     * Sublime-Text
+    * Visual Studio Code
 * Gráficos
     * Gimp
     * Inkscape    
@@ -40,23 +50,15 @@ sudo ./fedora.sh
     * Dash to Dock
 	* Papirus-icon
 	
-#### Como instalar
-~~~bash
-git clone https://github.com/sswellington/linux-essencial
-cd linux-essencial/distro/
-sudo chmod 777 fedora.sh
-sudo ./install.sh
-~~~
-
 ## Ambiente de programação
 
 ### [ASDF: Gerenciador de pacote para linguagem de programação](https://github.com/sswellington/linux-essencial/tree/master/equivalente/asdf.sh)
 
 ### [Visual Studio Code](https://code.visualstudio.com/): Plugins (Ctrl+P)
-    * ext install spywhere.guides
-    * ext install eamodio.gitlens
-    * ext install christian-kohler.path-intellisense
-    * ext install vscode-icons-team.vscode-icons	
+    > ext install spywhere.guides
+    > ext install eamodio.gitlens
+    > ext install christian-kohler.path-intellisense
+    > ext install PKief.material-icon-theme
 
 ## Teoria
 * [Shell Script](https://github.com/sswellington/linux-essencial/tree/master/teoria/shell-script.md)
