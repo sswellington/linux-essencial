@@ -17,7 +17,28 @@ sudo apt -y install wget
 sudo apt -y install gnome-tweaks
 
 echo "Instalando Build Essential"
-sudo apt -y install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl
+sudo apt -y install \ 
+build-essential \ 
+default-jdk \
+libssl-dev \ 
+make \
+automake \ 
+gcc \ 
+exuberant-ctags \ 
+ncurses-term \ 
+ack-grep \
+silversearcher-ag \ 
+fontconfig \ 
+imagemagick \ 
+libmagickwand-dev \
+ software-properties-common \ 
+ git \ 
+ vim \ 
+ vim-gtk3 \ 
+ curl \ 
+ apt-transport-https \ 
+ ca-certificates \ 
+ gnupg-agent
 
 echo "Instalando gparted"
 sudo apt -y install gparted
@@ -56,7 +77,6 @@ sudo apt -y install opera-stable
 
 echo "Instalando Sublime-Text"
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt -y update
 sudo apt -y install sublime-text
@@ -65,7 +85,6 @@ echo "Instalando Visual Studio Code"
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo apt-get -y install apt-transport-https
 sudo apt-get -y update
 sudo apt-get -y install code # or code-insiders
 
