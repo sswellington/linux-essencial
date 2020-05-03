@@ -61,11 +61,25 @@ sudo apt -y install inkscape
 echo "Instalando Transmission"
 sudo apt -y install transmission
 
+echo "Instalando Neofetch"
 sudo apt -y install neofetch
 
 echo "Instalando PIP"
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
+
+echo "Instalando Docker"
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+
+sudo apt-get install docker-ce=5:19.03.8~3-0~debian-buster docker-ce-cli=5:19.03.8~3-0~debian-buster containerd.io
 
 echo "Instalando Google-Chrome"
 sudo apt -y install 'https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.deb'
