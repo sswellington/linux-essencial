@@ -56,9 +56,10 @@ sudo ./fedora.sh
 
 ### [Visual Studio Code](https://code.visualstudio.com/): Plugins (Ctrl+P)
     > ext install spywhere.guides
-    > ext install eamodio.gitlens
     > ext install christian-kohler.path-intellisense
     > ext install PKief.material-icon-theme
+    > ext install eamodio.gitlens
+    > ext install mhutchie.git-graph
 
 ## Teoria
 * [Shell Script](https://github.com/sswellington/linux-essencial/tree/master/teoria/shell-script.md)
