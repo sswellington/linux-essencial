@@ -38,7 +38,8 @@ libmagickwand-dev \
  curl \ 
  apt-transport-https \ 
  ca-certificates \ 
- gnupg-agent
+ gnupg-agent \
+ telnet
 
 echo "Instalando gparted"
 sudo apt -y install gparted
