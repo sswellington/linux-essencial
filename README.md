@@ -60,6 +60,7 @@ sudo ./fedora.sh
     > ext install PKief.material-icon-theme
     > ext install eamodio.gitlens
     > ext install mhutchie.git-graph
+    > ext install bee.git-temporal-vscode
 
 ## Teoria
 * [Shell Script](https://github.com/sswellington/linux-essencial/tree/master/teoria/shell-script.md)
