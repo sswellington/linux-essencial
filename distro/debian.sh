@@ -12,10 +12,6 @@ sudo apt -y autoclean
 sudo apt -y autoremove
 sudo apt -y clean
 
-echo "Preparando o ambiente"
-sudo apt -y install wget
-sudo apt -y install gnome-tweaks
-
 echo "Instalando Build Essential"
 sudo apt -y install \ 
 build-essential \ 
@@ -31,15 +27,19 @@ silversearcher-ag \
 fontconfig \ 
 imagemagick \ 
 libmagickwand-dev \
- software-properties-common \ 
- git \ 
- vim \ 
- vim-gtk3 \ 
- curl \ 
- apt-transport-https \ 
- ca-certificates \ 
- gnupg-agent \
- telnet
+software-properties-common \ 
+git \ 
+vim \ 
+vim-gtk3 \ 
+curl \ 
+apt-transport-https \ 
+ca-certificates \ 
+gnupg-agent \
+telnet \ 
+wget
+
+echo "Preparando o ambiente"
+sudo apt -y install gnome-tweaks
 
 echo "Instalando gparted"
 sudo apt -y install gparted

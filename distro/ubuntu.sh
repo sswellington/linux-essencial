@@ -31,15 +31,15 @@ silversearcher-ag \
 fontconfig \ 
 imagemagick \ 
 libmagickwand-dev \
- software-properties-common \ 
- git \ 
- vim \ 
- vim-gtk3 \ 
- curl \ 
- apt-transport-https \ 
- ca-certificates \ 
- gnupg-agent \
- telnet
+software-properties-common \ 
+git \ 
+vim \ 
+vim-gtk3 \ 
+curl \ 
+apt-transport-https \ 
+ca-certificates \ 
+gnupg-agent \
+telnet
 
 echo "Instalando gparted"
 sudo apt -y install gparted
