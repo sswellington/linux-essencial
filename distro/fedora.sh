@@ -66,7 +66,9 @@ kernel-devel \
 apt-transport-https \ 
 ca-certificates \ 
 gnupg-agent \ 
-software-properties-common
+software-properties-common \
+lm-sensors \
+htop
 
 sudo yum -y groupinstall "Development Tools" "Development Libraries"
 

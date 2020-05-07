@@ -32,6 +32,8 @@ sudo ./fedora.sh
 * Ferramentas do sistema
 	* GParted
     * Spectacle
+    * htop
+    * lm-sensors
 * Internet
 	* Google Chrome
 	* Opera Browser

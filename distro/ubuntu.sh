@@ -39,7 +39,9 @@ curl \
 apt-transport-https \ 
 ca-certificates \ 
 gnupg-agent \
-telnet
+telnet \
+lm-sensors \
+htop
 
 echo "Instalando gparted"
 sudo apt -y install gparted

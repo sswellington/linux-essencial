@@ -36,7 +36,9 @@ apt-transport-https \
 ca-certificates \ 
 gnupg-agent \
 telnet \ 
-wget
+wget \ 
+lm-sensors \
+htop
 
 echo "Preparando o ambiente"
 sudo apt -y install gnome-tweaks
