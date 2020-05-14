@@ -38,7 +38,7 @@ gnupg-agent \
 telnet \ 
 wget \ 
 lm-sensors \
-htop
+htop 
 
 echo "Preparando o ambiente"
 sudo apt -y install gnome-tweaks
@@ -66,6 +66,9 @@ sudo apt -y install transmission
 
 echo "Instalando Neofetch"
 sudo apt -y install neofetch
+
+echo "Fish"
+sudo apt -y install fish
 
 echo "Instalando PIP"
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py

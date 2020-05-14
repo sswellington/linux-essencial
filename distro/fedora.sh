@@ -97,6 +97,9 @@ sudo dnf -y install pip
 
 sudo dnf -y install neofetch
 
+echo "Fish"
+sudo dnf -y install fish
+
 echo "Instalando Google-Chrome"
 sudo dnf -y install 'https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm'
 
