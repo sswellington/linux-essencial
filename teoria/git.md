@@ -56,6 +56,8 @@ Já estamos no ramo principal, então precisamos apenas dizer ao Git para mescla
 
 ~~~bash
 git merge clean_up
+git merge -squash clean_up
+git commit -m "Todos os commits da branch se tornam apenas um commit"
 ~~~
 
 Parabéns Você acabou de realizar seu primeiro bugfix bem-sucedido e mesclar. Tudo o que resta a fazer é limpar a si mesmo. Uma vez que você terminou com o ramo clean_up você não precisa mais dele.

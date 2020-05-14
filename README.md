@@ -78,5 +78,10 @@ sudo ./fedora.sh
     - ext install hbenl.vscode-test-explorer
 
 ## Teoria
+
 * [Shell Script](https://github.com/sswellington/linux-essencial/tree/master/teoria/shell-script.md)
 * [Git](https://github.com/sswellington/linux-essencial/tree/master/teoria/git.md)
+
+<p align="center">
+<img src="/teoria/wallpaper.jpg">
+</p>

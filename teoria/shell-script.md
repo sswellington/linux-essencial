@@ -1,5 +1,9 @@
 # Introdução ao Shell Script 
 
+<p align="center">
+<img src="wallpaper.jpg">
+</p>
+
 ## Comandos básicos
 | Comando | Descrição | Sintaxe |
 ----------|-----------|---------|
