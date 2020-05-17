@@ -1,8 +1,10 @@
 # Git
 
 ## Configuração de usuário 
+~~~bash
 $ git config --global user.email "email-que-usou-pra-criar-a-conta-do-github"
 $ git config --global user.name "nome-do-seu-usuario-de-login-do-github"
+~~~
 
 ## Padronização para Mensagens de Commit
 * `feat`: um novo recurso
@@ -67,6 +69,40 @@ Sugerir uma edição
 
 ~~~bash
 git branch -d clean_up
+~~~
+
+Editar commit
+~~~bash 
+# último commit
+git commit --amend
+
+# Exibe uma lista dos 3 últimos commits no branch atual
+git rebase -i HEAD~3
+~~~
+
+Opções de alteração o commit
+~~~bash
+pick e499d89 Delete CNAME
+pick 0c39034 Better README
+pick f7fde4a Change the commit message but push the same commit.
+
+# Rebase 9fdb3bd..f7fde4a onto 9fdb3bd
+#
+# Comandos:
+# p, pick = usar commit
+# r, reword = usar commit, mas editar a mensagem do commit
+# e, edit = usar commit, mas interromper para correção
+# s, squash = usar commit, mas combinar com commit anterior
+# f, fixup = como "squash", mas descartar a mensagem de log do commit
+# x, exec = executar o comando (o restante da linha) usando shell
+#
+# Essas linhas podem ser reordenadas; elas são executadas de cima para baixo.
+#
+# Se você remover uma linha aqui ESSE COMMIT SERÁ PERDIDO.
+#
+# No entanto, se você remover tudo, o rebase será anulado.
+#
+# Observe que commits vazios são comentados
 ~~~
 
 ## Referência
