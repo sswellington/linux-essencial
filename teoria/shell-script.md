@@ -60,7 +60,7 @@
 | cp     | cp arquivo destino | Copia um arquivo ou diretório (-R para diretórios) |
 | find   | find +nome Procura por arquivos e diretórios |
 
-# Linguagel Shell 
+# Linguagem Shell 
 
 ## Variável
 
