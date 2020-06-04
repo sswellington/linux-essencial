@@ -71,7 +71,7 @@ Sugerir uma edição
 git branch -d clean_up
 ~~~
 
-Editar commit
+## Editar commit
 ~~~bash 
 # último commit
 git commit --amend
@@ -103,6 +103,28 @@ pick f7fde4a Change the commit message but push the same commit.
 # No entanto, se você remover tudo, o rebase será anulado.
 #
 # Observe que commits vazios são comentados
+~~~
+
+## [Stash](https://medium.com/wooza/git-stash-conhecendo-e-utilizando-um-dos-comandos-mais-pr%C3%A1ticos-para-o-versionamento-de-seu-c%C3%B3digo-a4dab3ac70da#:~:text=Pois%20bem%2C%20a%20utiliza%C3%A7%C3%A3o%20do,o%20seu%20desenvolvimento%20de%20c%C3%B3digo.)
+
+Considerando que você tenha arquivos pendentes para commitar, ao utilizar o comando git stash no seu terminal, o Git vai criar uma branch temporária contendo a versão atual do seu projeto e após isso vai desfazer essas modificações feitas nos arquivos da sua branch atual.
+
+~~~bash
+# cria um ramo temporário e 
+# realiza um checkout para o último commit
+git stash
+~~~
+
+cria aquela ramificação que foi citada para você com as alterações que tinhas realizado e para recuperar basta usar o comando `git stash apply` e dessa forma, todos os arquivos que você modificou no momento do apply vão ser restaurado, exatamente como você deixou.
+
+~~~bash
+# restaura os arquivos modificados
+git stash apply
+~~~
+
+consultar todos os stash’s criados com o comando: 
+~~~bash
+git stash list
 ~~~
 
 ## Referência
