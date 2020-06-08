@@ -59,6 +59,7 @@ make \
 automake \ 
 gcc \ 
 gcc-c++ \ 
+bison \
 java \ 
 vim \ 
 curl \ 

@@ -18,12 +18,14 @@ sudo apt -y install gnome-tweaks
 
 echo "Instalando Build Essential"
 sudo apt -y install \ 
-build-essential \ 
+curl \ 
+wget \ 
 default-jdk \
 libssl-dev \ 
 make \
 automake \ 
 gcc \ 
+bison \
 exuberant-ctags \ 
 ncurses-term \ 
 ack-grep \
@@ -35,13 +37,25 @@ software-properties-common \
 git \ 
 vim \ 
 vim-gtk3 \ 
-curl \ 
 apt-transport-https \ 
 ca-certificates \ 
 gnupg-agent \
-telnet \
+telnet \ 
 lm-sensors \
-htop
+htop \
+autoconf \
+libjpeg-dev \ 
+libmariadb-dev \
+libcurl4-openssl-dev \ 
+libreadline-dev \ 
+libedit-dev \ 
+zlib1g-dev \ 
+libicu-dev \
+libxml2-dev \ 
+gettext \ 
+libpq-dev
+openssl \ 
+pkg-config 
 
 echo "Instalando gparted"
 sudo apt -y install gparted
