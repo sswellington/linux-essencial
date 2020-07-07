@@ -105,6 +105,30 @@ pick f7fde4a Change the commit message but push the same commit.
 # Observe que commits vazios são comentados
 ~~~
 
+## [fecth Fork](https://www.lambda3.com.br/2016/02/mantendo-um-fork-atualizado-no-github/)
+
+* Clone do Fork
+~~~
+git clone repo-fork
+~~~
+
+* remonta o repositório original
+~~~
+git remote add upstream repo-de-orign
+~~~
+
+* fetch upstream
+~~~
+git fetch upstream 
+~~~
+
+* rebase upstream 
+~~~
+git rebase upstream/master
+~~~
+
+---
+
 ## [Stash](https://medium.com/wooza/git-stash-conhecendo-e-utilizando-um-dos-comandos-mais-pr%C3%A1ticos-para-o-versionamento-de-seu-c%C3%B3digo-a4dab3ac70da#:~:text=Pois%20bem%2C%20a%20utiliza%C3%A7%C3%A3o%20do,o%20seu%20desenvolvimento%20de%20c%C3%B3digo.)
 
 Considerando que você tenha arquivos pendentes para commitar, ao utilizar o comando git stash no seu terminal, o Git vai criar uma branch temporária contendo a versão atual do seu projeto e após isso vai desfazer essas modificações feitas nos arquivos da sua branch atual.
