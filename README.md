@@ -57,14 +57,31 @@ sudo ./fedora.sh
 ### [ASDF: Gerenciador de pacote para linguagem de programação](https://github.com/sswellington/linux-essencial/tree/master/equivalente/asdf.sh)
 
 ### [Visual Studio Code](https://code.visualstudio.com/): Plugins (Ctrl+P)
-    - ext install spywhere.guides
-    - ext install 2gua.rainbow-brackets
-    - ext install christian-kohler.path-intellisense
-    - ext install PKief.material-icon-theme
-    - ext install shd101wyy.markdown-preview-enhanced
-    - ext install johnpapa.vscode-peacock
-    - ext install naumovs.color-highlight
-    - ext install shan.code-settings-sync
+    - code  --install-extension 2gua.rainbow-brackets
+    - code  --install-extension bee.git-temporal-vs    - code 
+    - code  --install-extension bierner.markdown-preview-github-styles
+    - code  --install-extension christian-kohler.path-intellisense
+    - code  --install-extension danielpinto8zz6.c-cpp-compile-run
+    - code  --install-extension dongli.python-preview
+    - code  --install-extension eamodio.gitlens
+    - code  --install-extension felixfbecker.php-debug
+    - code  --install-extension felixfbecker.php-intellisense
+    - code  --install-extension hbenl.vs    - code -test-explorer
+    - code  --install-extension josee9988.minifyall
+    - code  --install-extension littlefoxteam.vs    - code -python-test-adapter
+    - code  --install-extension lonefy.vs    - code -JS-CSS-HTML-formatter
+    - code  --install-extension mhutchie.git-graph
+    - code  --install-extension ms-dotnettools.csharp
+    - code  --install-extension ms-pyright.pyright
+    - code  --install-extension ms-python.python
+    - code  --install-extension ms-vs    - code .cpptools
+    - code  --install-extension njpwerner.autodocstring
+    - code  --install-extension Nur.just-black
+    - code  --install-extension PKief.material-icon-theme
+    - code  --install-extension ritwickdey.LiveServer
+    - code  --install-extension Sophisti    - code .php-formatter
+    - code  --install-extension spywhere.guides
+    - code  --install-extension ZainChen.json
 * Git
     - ext install eamodio.gitlens
     - ext install mhutchie.git-graph
