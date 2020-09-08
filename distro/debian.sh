@@ -56,6 +56,14 @@ pkg-config
 echo "Preparando o ambiente"
 sudo apt -y install gnome-tweaks
 
+echo "Instalando drive de impressora"
+sudo apt -y install task-print-server \
+sudo apt -y install cups
+
+echo "Instalando drive de audio"
+sudo apt -y install pulseaudio \
+sudo apt -y install pavucontrol
+
 echo "Instalando gparted"
 sudo apt -y install gparted
 
@@ -76,10 +84,6 @@ sudo apt -y install inkscape
 
 echo "Instalando Transmission"
 sudo apt -y install transmission
-
-echo "Instalando drive de impressora"
-sudo apt -y install task-print-server \
-sudo apt -y install cups
 
 echo "Instalando Neofetch"
 sudo apt -y install neofetch
