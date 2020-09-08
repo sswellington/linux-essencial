@@ -77,6 +77,10 @@ sudo apt -y install inkscape
 echo "Instalando Transmission"
 sudo apt -y install transmission
 
+echo "Instalando drive de impressora"
+sudo apt -y install task-print-server \
+sudo apt -y install cups
+
 echo "Instalando Neofetch"
 sudo apt -y install neofetch
 
