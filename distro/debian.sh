@@ -74,7 +74,10 @@ echo "Instalando Spectacle"
 sudo apt -y install spectacle
 
 echo "Instalando Okular"
-sudo apt -y install okular
+sudo apt -y install okular 
+
+echo "PDF-Shuffler"
+sudo apt -y install pdfshuffler
 
 echo "Instalando Gimp"
 sudo apt -y install gimp

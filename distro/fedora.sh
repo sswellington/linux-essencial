@@ -85,6 +85,9 @@ sudo dnf -y install spectacle
 echo "Instalando Okular"
 sudo dnf -y install okular
 
+echo "PDF-Shuffler"
+sudo dnf -y install pdfshuffler
+
 echo "Instalando Gimp"
 sudo dnf -y install gimp
 
