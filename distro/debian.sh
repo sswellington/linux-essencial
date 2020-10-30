@@ -76,8 +76,15 @@ sudo apt -y install spectacle
 echo "Instalando Okular"
 sudo apt -y install okular 
 
-echo "PDF-Shuffler"
+echo "Instalando PDF-Shuffler"
 sudo apt -y install pdfshuffler
+
+echo "Instalando Thunderbird"
+sudo apt -y install thunderbird
+
+echo "Instalando VPN"
+sudo apt -y install vpnc network-manager-vpnc
+sudo apt -y install vpnc network-manager-vpnc-gnome
 
 echo "Instalando Gimp"
 sudo apt -y install gimp
