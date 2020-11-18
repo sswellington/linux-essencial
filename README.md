@@ -6,7 +6,7 @@
 
 #### Como instalar o script
 ~~~bash
-wget https://github.com/sswellington/linux-essencial/distro/debian.sh
+wget https://github.com/sswellington/linux-essencial/distro/debian-1_native-programs.sh
 sudo chmod 777 debian.sh
 sudo ./debian.sh
 ~~~
