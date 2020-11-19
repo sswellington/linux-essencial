@@ -19,21 +19,25 @@
 # # # Vídeo
 # # # # https://www.youtube.com/watch?v=epiyExCyb2s&t=2441s
 
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.8
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+cd ~/.asdf
+git checkout "$(git describe --abbrev=0 --tags)"
 
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+source ~/.bashrc
+asdf --version
 
-echo "Adicionando Golang ao repositório"
-asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
+# echo "Adicionando Golang ao repositório"
+# asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
 
 #echo "Lista o repositório"
 # asdf plugin-list
 
-echo "Instalando Golang"
-asdf list-all golang 
-asdf install golang 1.14
+# echo "Instalando Golang"
+# asdf list-all golang 
+# asdf install golang 1.14
 
-asdf global golang 1.14
+# asdf global golang 1.14
 
 asdf plugin-update --all
