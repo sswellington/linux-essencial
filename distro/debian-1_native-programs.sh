@@ -60,6 +60,7 @@ sudo apt -y install neofetch
 echo "Fish"
 sudo apt -y install fish
 
+echo "OBS Studio"
 sudo apt -y install obs-studio
 
 echo "Realizando os últimos ajustes"

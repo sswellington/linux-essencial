@@ -16,60 +16,60 @@ sudo nano /etc/dnf/dnf.conf
 su -c 'dnf install deltarpm && echo "deltarpm=1" >> /etc/dnf/dnf.conf'
 sudo dnf -y upgrade
 
-sudo dnf -y install \ 
-gnome-tweaks \ 
-papirus-icon-theme \
-amrnb \ 
-amrwb \ 
-faad2 \ 
-flac \ 
-ffmpeg \ 
-gpac-libs \ 
-lame \ 
-libfc14audiodecoder \ 
-mencoder \
-mplayer \
-x264 \ 
-x265 \ 
-gstreamer-plugins-espeak \ 
-gstreamer-plugins-fc \
-gstreamer-rtsp \ 
-gstreamer-plugins-good \
-gstreamer-plugins-bad \
-gstreamer-plugins-bad-free-extras \
-gstreamer-plugins-bad-nonfree \
-gstreamer-plugins-ugly \ 
-gstreamer-ffmpeg \
-gstreamer1-plugins-base \
-gstreamer1-libav \
-gstreamer1-plugins-bad-free-extras \
-gstreamer1-plugins-bad-freeworld \
-gstreamer1-plugins-base-tools \
-gstreamer1-plugins-good-extras \
-gstreamer1-plugins-ugly \
-gstreamer1-plugins-bad-free \
-gstreamer1-plugins-good
+sudo dnf -y install 
+sudo dnf -y install gnome-tweaks 
+sudo dnf -y install papirus-icon-theme 
+sudo dnf -y install amrnb 
+sudo dnf -y install amrwb 
+sudo dnf -y install faad2 
+sudo dnf -y install flac 
+sudo dnf -y install ffmpeg 
+sudo dnf -y install gpac-libs 
+sudo dnf -y install lame 
+sudo dnf -y install libfc14audiodecoder 
+sudo dnf -y install mencoder 
+sudo dnf -y install mplayer 
+sudo dnf -y install x264 
+sudo dnf -y install x265 
+sudo dnf -y install gstreamer-plugins-espeak 
+sudo dnf -y install gstreamer-plugins-fc 
+sudo dnf -y install gstreamer-rtsp 
+sudo dnf -y install gstreamer-plugins-good 
+sudo dnf -y install gstreamer-plugins-bad 
+sudo dnf -y install gstreamer-plugins-bad-free-extras 
+sudo dnf -y install gstreamer-plugins-bad-nonfree 
+sudo dnf -y install gstreamer-plugins-ugly 
+sudo dnf -y install gstreamer-ffmpeg 
+sudo dnf -y install gstreamer1-plugins-base 
+sudo dnf -y install gstreamer1-libav 
+sudo dnf -y install gstreamer1-plugins-bad-free-extras 
+sudo dnf -y install gstreamer1-plugins-bad-freeworld 
+sudo dnf -y install gstreamer1-plugins-base-tools 
+sudo dnf -y install gstreamer1-plugins-good-extras 
+sudo dnf -y install gstreamer1-plugins-ugly 
+sudo dnf -y install gstreamer1-plugins-bad-free 
+sudo dnf -y install gstreamer1-plugins-good
 
 sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 echo "Instalando Build Essential"
-sudo yum -y install \ 
-make \
-automake \ 
-gcc \ 
-gcc-c++ \ 
-bison \
-java \ 
-vim \ 
-curl \ 
-kernel-devel \
-apt-transport-https \ 
-ca-certificates \ 
-gnupg-agent \ 
-software-properties-common \
-lm-sensors \
-htop
+sudo yum -y install 
+sudo yum -y install make 
+sudo yum -y install automake 
+sudo yum -y install gcc 
+sudo yum -y install gcc-c++ 
+sudo yum -y install bison 
+sudo yum -y install java 
+sudo yum -y install vim 
+sudo yum -y install curl 
+sudo yum -y install kernel-devel 
+sudo yum -y install apt-transport-https 
+sudo yum -y install ca-certificates 
+sudo yum -y install gnupg-agent 
+sudo yum -y install software-properties-common 
+sudo yum -y install lm-sensors 
+sudo yum -y install htop
 
 sudo yum -y groupinstall "Development Tools" "Development Libraries"
 
@@ -104,15 +104,15 @@ sudo dnf -y install neofetch
 echo "Fish"
 sudo dnf -y install fish
 
-echo "Instalando Google-Chrome"
-sudo dnf -y install 'https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm'
+# echo "Instalando Google-Chrome"
+# sudo dnf -y install 'https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm'
 
-echo "Instalando Opera"
-URL=http://get.geo.opera.com/pub/opera/desktop/53.0.2907.37/linux/
-sudo dnf -y install -y ${URL}/opera-stable_53.0.2907.37_amd64.rpm
-get https://download3.operacdn.com/pub/opera/desktop/66.0.3515.72/linux/opera-stable_66.0.3515.72_amd64.rpm
-dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf -y update
+# echo "Instalando Opera"
+# URL=http://get.geo.opera.com/pub/opera/desktop/53.0.2907.37/linux/
+# sudo dnf -y install -y ${URL}/opera-stable_53.0.2907.37_amd64.rpm
+# get https://download3.operacdn.com/pub/opera/desktop/66.0.3515.72/linux/opera-stable_66.0.3515.72_amd64.rpm
+# dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+# sudo dnf -y update
 
 echo "Instalando Sublime-Text"
 sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
