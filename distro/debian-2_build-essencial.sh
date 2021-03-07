@@ -51,3 +51,4 @@ sudo apt -y install openssl
 sudo apt -y install pkg-config 
 sudo apt -y install htop
 sudo apt -y install lm-sensors
+sudo apt -y install rar
