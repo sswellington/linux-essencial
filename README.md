@@ -1,4 +1,4 @@
-# linux-essentials
+# Linux Essentials
 
 ## Distro
 
@@ -29,30 +29,43 @@ sudo ./fedora.sh
 ~~~
 
 ## Contéudo
-* Ferramentas do sistema
-	* GParted
-    * Spectacle
-    * htop
-    * lm-sensors
-* Internet
+### Ferramentas do sistema
+* GParted
+* Spectacle
+* htop
+* lm-sensors
+* Autentificação
+	* *Bitwarden*
+	* *Authy*
+
+### Internet
+* Browser
 	* Google Chrome
 	* Opera Browser
-    * Transmission
-* Escritório
-    * Okular
-    * Sublime-Text
-    * Visual Studio Code
-* Gráficos
-    * Gimp
-    * Inkscape    
-* Áudio e Vídeo
-	* VLC
-* Temas
-    * Tweaks	
-    * Dash to Dock
-	* Papirus-icon
-	
+	* *Vivaldi*
+	* *Brave*
+* Transmission
+* Cloud
+	* *Dropbox*
+	* *Mega*
+	* *PCloud* 
+### Escritório
+* Okular
+### Programming
+* Sublime-Text
+* Visual Studio Code
+### Gráficos
+* Gimp
+* Inkscape   
+* *Image Magick* 
+### Áudio e Vídeo
+* VLC
+* OBS
+### Temas
+* Tweaks	
+* Dash to Dock
+* Papirus-icon
+
 ## Ambiente de programação
 
 ### [ASDF: Gerenciador de pacote para linguagem de programação](https://github.com/sswellington/linux-essencial/tree/master/equivalente/asdf.sh)
-
