@@ -28,6 +28,8 @@ sudo chmod 777 fedora.sh
 sudo ./fedora.sh
 ~~~
 
+--- 
+
 ## Contéudo
 ### Ferramentas do sistema
 * GParted
@@ -68,4 +70,4 @@ sudo ./fedora.sh
 
 ## Ambiente de programação
 
-### [ASDF: Gerenciador de pacote para linguagem de programação](https://github.com/sswellington/linux-essencial/tree/master/equivalente/asdf.sh)
+### [ASDF: Gerenciador de pacote para linguagem de programação](https://sswellington.github.io/blog/2020-05-15/hello-asdf)
