@@ -49,6 +49,8 @@ sudo apt -y install ncurses-term
 sudo apt -y install silversearcher-ag 
 sudo apt -y install openssl
 sudo apt -y install pkg-config 
+sudo apt -y install rbenv
+sudo apt -y install fish
 sudo apt -y install htop
 sudo apt -y install lm-sensors
 sudo apt -y install rar
